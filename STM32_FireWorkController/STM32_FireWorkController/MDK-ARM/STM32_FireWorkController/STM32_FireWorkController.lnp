@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"stm32_fireworkcontroller\startup_stm32f103xb.o"
+"stm32_fireworkcontroller\main.o"
+"stm32_fireworkcontroller\gpio.o"
+"stm32_fireworkcontroller\i2c.o"
+"stm32_fireworkcontroller\usart.o"
+"stm32_fireworkcontroller\stm32f1xx_it.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_msp.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_gpio_ex.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_i2c.o"
+"stm32_fireworkcontroller\stm32f1xx_hal.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_rcc.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_rcc_ex.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_gpio.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_dma.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_cortex.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_pwr.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_flash.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_flash_ex.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_exti.o"
+"stm32_fireworkcontroller\stm32f1xx_hal_uart.o"
+"stm32_fireworkcontroller\system_stm32f1xx.o"
+"stm32_fireworkcontroller\driver_oled.o"
+"stm32_fireworkcontroller\driver_lcd.o"
+--strict --scatter "STM32_FireWorkController\STM32_FireWorkController.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32_FireWorkController.map" -o STM32_FireWorkController\STM32_FireWorkController.axf

@@ -1,0 +1,10 @@
+stm32_fireworkcontroller\oled.o: ..\USER\OLED.c
+stm32_fireworkcontroller\oled.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+stm32_fireworkcontroller\oled.o: .\RTE\_STM32_FireWorkController\RTE_Components.h
+stm32_fireworkcontroller\oled.o: ../Drivers/CMSIS/Include/core_cm3.h
+stm32_fireworkcontroller\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32_fireworkcontroller\oled.o: ../Drivers/CMSIS/Include/cmsis_version.h
+stm32_fireworkcontroller\oled.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+stm32_fireworkcontroller\oled.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+stm32_fireworkcontroller\oled.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
+stm32_fireworkcontroller\oled.o: ..\USER\OLED_Font.h
