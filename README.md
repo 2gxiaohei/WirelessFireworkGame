@@ -1,0 +1,2 @@
+# WirelessFireworkGame
+基于Socket通信的硬件无线触发的跨平台赛博烟花模拟器
